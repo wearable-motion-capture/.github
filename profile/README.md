@@ -1,5 +1,7 @@
 ## Wearable Motion Capture
 
+Welcome, this organization serves as a collection of all repositories that you might need to use our wearable motion capture system. One provides the apps to stream sensor readings from wearable devices to a remote machine, one provides the processing of streamed data into arm posture estimations, and one offers a real-time visualization using Unity.
+
 <!--
 
 **Here are some ideas to get you started:**
