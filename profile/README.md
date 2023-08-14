@@ -1,14 +1,59 @@
-## Wearable Motion Capture
+# Welcome
 
-Welcome, this organization serves as a collection of all repositories that you might need to use our wearable motion capture system. One provides the apps to stream sensor readings from wearable devices to a remote machine, one provides the processing of streamed data into arm posture estimations, and one offers a real-time visualization using Unity.
+Our __wearable motion capture system__ provides arm-pose estimations from a single smartwatch. This allows motion 
+capture of the human arm anytime and anywhere. Our system comprises apps to stream sensor data from wearable devices, a python package to estimate arm poses from streamed sensor data, 
+and an optional 3D visualization using Unity.
 
-<!--
+![Watch Only GIF](https://github.com/wearable-motion-capture/.github-private/blob/main/profile/httpdocs/watch_only.gif)
 
-**Here are some ideas to get you started:**
+The associated [scientific paper](https://arxiv.org/abs/2306.13192) to this system is:
+```
+@misc{weigend2023anytime,
+      title={Anytime, Anywhere: Human Arm Pose from Smartwatch Data for Ubiquitous Robot Control and Teleoperation}, 
+      author={Fabian C Weigend and Shubham Sonawani and Michael Drolet and Heni Ben Amor},
+      year={2023},
+      eprint={2306.13192},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# Quick Start Guide
+
+Here, we outline the most basic steps to get started with our system. For more detailed instructions and advanced modes 
+(like phone and watch tracking or voice commands), please see our [detailed documentation](https://docs.google.com/document/d/1ayMBF9kDCB9rlcrqR0sPumJhIVJgOF-SENTdoE4a6DI/edit?usp=sharing).
+
+### The Modules and Pipeline
+
+Our __wearable motion capture system__ is composed of modules. 
+Each of these modules is one repository in this GitHub Organization.
+Namely, they are:
+
+* [__sensor-stream-apps__](https://github.com/wearable-motion-capture/sensor-stream-apps) provides the apps to stream sensor readings from wearable devices to a remote machine.
+* [__arm-pose-estimation__](https://github.com/wearable-motion-capture/arm-pose-estimation) opens sockets to receive streamed data from wearable devices and processes them into arm posture estimations.
+* [__arm-pose-visualization__](https://github.com/wearable-motion-capture/arm-pose-visualization) visualizes arm posture estimations in real time using a 3D avatar.
+
+The figure below summarizes the data stream from smart devices to visualization. The individual components are connected through UDP streams, but Arm Pose Estimation and Arm Pose Visualization can run on the same machine. The UDP streaming from smart devices to the Arm Pose Estimation requires a local WiFi connection.
+
+![Modules Image](https://github.com/wearable-motion-capture/.github-private/blob/main/profile/httpdocs/modules.png)
+
+### Basic Installs
+
+First, install our [__sensor-stream-apps__](https://github.com/wearable-motion-capture/sensor-stream-apps) with Android Studio. 
+Your smartwatch has to be in developer mode and has to be connected the same WiFi as the machine that you want to run arm pose estimations on. 
+If you are unfamiliar with installing an app in developer mode, we recommend following the step-by-step instructions in 
+our [detailed documentation](https://docs.google.com/document/d/1ayMBF9kDCB9rlcrqR0sPumJhIVJgOF-SENTdoE4a6DI/edit?usp=sharing).
+
+Then, clone [__arm-pose-estimation__](https://github.com/wearable-motion-capture/arm-pose-estimation) and install it with pip:
+```
+pip3 install /path/to/cloned/repository
+```
+For streaming data from the watch only, copy the [stream_watch_only.py](https://github.com/wearable-motion-capture/arm-pose-estimation/blob/main/example_scripts/stream_watch_only.py) from the [example_scripts](https://github.com/wearable-motion-capture/arm-pose-estimation/tree/main/example_scripts) directory.
+Run the script with your local IP as a parameter. For example:
+```
+python3 stream_watch_only.py 192.168.1.123
+```
+
+Finally, to visualize arm pose estimates, you can either download a build of the visualizer tool [here](https://drive.google.com/drive/folders/1DzpVi-WxWYhTzW-msOGx4AHPmHCyEV3E?usp=sharing), or you clone our [__arm-pose-visualization__](https://github.com/wearable-motion-capture/arm-pose-visualization) repository and open it in Unity.
+Please also see our [detailed documentation](https://docs.google.com/document/d/1ayMBF9kDCB9rlcrqR0sPumJhIVJgOF-SENTdoE4a6DI/edit?usp=sharing) if you want to use Unity.
+
