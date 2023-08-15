@@ -1,8 +1,6 @@
 # Welcome
 
-Our __wearable motion capture system__ provides arm-pose estimations from a single smartwatch. This allows motion 
-capture of the human arm anytime and anywhere. Our system comprises apps to stream sensor data from wearable devices, a python package to estimate arm poses from streamed sensor data, 
-and an optional 3D visualization using Unity.
+Our __wearable motion capture system__ provides arm-pose estimations from a single smartwatch. This allows motion capture of the human arm anytime and anywhere. Our system comprises apps to stream sensor data from wearable devices, a python package to estimate arm poses from streamed sensor data, and an optional 3D visualization using Unity.
 
 ![Watch Only GIF](https://github.com/wearable-motion-capture/.github-private/blob/main/profile/httpdocs/watch_only.gif)
 
@@ -21,7 +19,7 @@ The associated [scientific paper](https://arxiv.org/abs/2306.13192) to this syst
 # Quick Start Guide
 
 Here, we outline the most basic steps to get started with our system. For more detailed instructions and advanced modes 
-(like phone and watch tracking or voice commands), please see our [detailed documentation](https://docs.google.com/document/d/1ayMBF9kDCB9rlcrqR0sPumJhIVJgOF-SENTdoE4a6DI/edit?usp=sharing).
+(like phone and watch tracking or voice commands), please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki).
 
 ### The Modules and Pipeline
 
@@ -42,7 +40,7 @@ The figure below summarizes the data stream from smart devices to visualization.
 First, install our [__sensor-stream-apps__](https://github.com/wearable-motion-capture/sensor-stream-apps) with Android Studio. 
 Your smartwatch has to be in developer mode and has to be connected the same WiFi as the machine that you want to run arm pose estimations on. 
 If you are unfamiliar with installing an app in developer mode, we recommend following the step-by-step instructions in 
-our [detailed documentation](https://docs.google.com/document/d/1ayMBF9kDCB9rlcrqR0sPumJhIVJgOF-SENTdoE4a6DI/edit?usp=sharing).
+our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki).
 
 Then, clone [__arm-pose-estimation__](https://github.com/wearable-motion-capture/arm-pose-estimation) and install it with pip:
 ```
@@ -55,5 +53,4 @@ python3 stream_watch_only.py 192.168.1.123
 ```
 
 Finally, to visualize arm pose estimates, you can either download a build of the visualizer tool [here](https://drive.google.com/drive/folders/1DzpVi-WxWYhTzW-msOGx4AHPmHCyEV3E?usp=sharing), or you clone our [__arm-pose-visualization__](https://github.com/wearable-motion-capture/arm-pose-visualization) repository and open it in Unity.
-Please also see our [detailed documentation](https://docs.google.com/document/d/1ayMBF9kDCB9rlcrqR0sPumJhIVJgOF-SENTdoE4a6DI/edit?usp=sharing) if you want to use Unity.
-
+Please also see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki) if you want to use Unity.
