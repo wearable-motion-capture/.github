@@ -33,7 +33,7 @@ Namely, they are:
 
 The figure below summarizes the data stream from smart devices to visualization. The individual components are connected through UDP streams, but Arm Pose Estimation and Arm Pose Visualization can run on the same machine. The UDP streaming from smart devices to the Arm Pose Estimation requires a local WiFi connection.
 
-![Modules Image](https://github.com/wearable-motion-capture/.github-private/blob/main/profile/httpdocs/modules.png)
+![Modules Image](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modules.png)
 
 ### Basic Installs
 
