@@ -17,9 +17,9 @@ The associated [paper](https://arxiv.org/abs/2306.13192) to this system is:
 ```
 
 # Quick Start Guide
+For more detailed instructions and advanced modes, please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki). Here, we outline the most basic steps to get started with our system. As shown below, this framework features three modes. The quick start guide gets you started with the **Watch Only** mode.
 
-Here, we outline the most basic steps to get started with our system. For more detailed instructions and advanced modes 
-(like phone and watch tracking or voice commands), please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki).
+![Modes Gif](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modes.gif)
 
 ### The Modules and Pipeline
 
