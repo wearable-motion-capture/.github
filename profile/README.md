@@ -17,9 +17,13 @@ The associated [paper](https://arxiv.org/abs/2306.13192) to this system is:
 ```
 
 # Quick Start Guide
-For more detailed instructions and advanced modes, please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki). Here, we outline the most basic steps to get started with our system. As shown below, this framework features three modes. The quick start guide gets you started with the **Watch Only** mode.
 
-![Modes Gif](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modes.gif)
+Here, we outline the most basic steps to get started with our system. For more detailed instructions and advanced modes 
+(like phone and watch tracking or voice commands), please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki). As shown below, this framework features three modes. The quick start guide gets you started with the **Watch Only** mode.
+
+<p align="center">
+  <img src="https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modes.gif" alt="Modes"/>
+</p>
 
 ### The Modules and Pipeline
 
@@ -33,7 +37,9 @@ Namely, they are:
 
 The figure below summarizes the data stream from smart devices to visualization. The individual components are connected through UDP streams, but Arm Pose Estimation and Arm Pose Visualization can run on the same machine. The UDP streaming from smart devices to the Arm Pose Estimation requires a local WiFi connection.
 
-![Modules Image](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modules.png)
+<p align="center">
+  <img src="https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modules.png" alt="Modules"/>
+</p>
 
 ### Basic Installs
 
