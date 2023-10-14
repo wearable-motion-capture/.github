@@ -19,7 +19,7 @@ The associated [paper](https://arxiv.org/abs/2306.13192) to this system is:
 # Quick Start Guide
 
 Here, we outline the most basic steps to get started with our system. For more detailed instructions and advanced modes 
-(like phone and watch tracking or voice commands), please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki). As shown below, this framework features three modes. **Watch Only** estimates arm poses from the data of a single smartwatch. **+Phone Upper Arm** make more accurate arm pose predictions. **+Phone Pocket** allows the user to move around and change body orientation. The quick start guide gets you started with the **Watch Only** mode.
+(like phone and watch tracking or voice commands), please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki). As shown below, this framework features three modes. **Watch Only** estimates arm poses from the data of a single smartwatch. **+Phone Upper Arm** enables our most accurate arm pose predictions. **+Phone Pocket** allows to move around and change body orientation. The quick start guide gets you started with the **Watch Only** mode.
 
 <p align="center">
   <img src="https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modes.gif" alt="Modes"/>
