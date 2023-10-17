@@ -13,6 +13,7 @@ The associated [paper](https://arxiv.org/abs/2306.13192) to this system is:
       year={2023}
 }
 ```
+**NEWS!** Nominated for the RoboCup Best Paper Award at IROS 2023
 
 # Quick Start Guide
 
