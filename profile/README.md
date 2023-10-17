@@ -6,13 +6,11 @@ Our __wearable motion capture system__ provides arm-pose estimations from a sing
 
 The associated [paper](https://arxiv.org/abs/2306.13192) to this system is:
 ```
-@misc{weigend2023anytime,
+@INPROCEEDINGS{weigend2023anytime,
       title={Anytime, Anywhere: Human Arm Pose from Smartwatch Data for Ubiquitous Robot Control and Teleoperation}, 
       author={Fabian C Weigend and Shubham Sonawani and Michael Drolet and Heni Ben Amor},
-      year={2023},
-      eprint={2306.13192},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+      booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+      year={2023}
 }
 ```
 
