@@ -4,22 +4,20 @@ Our __wearable motion capture system__ provides arm-pose estimations from a sing
 
 ![Watch Only GIF](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/watch_only.gif)
 
-The associated [paper](https://arxiv.org/abs/2306.13192) to this system is:
+The associated [paper](https://arxiv.org/abs/2306.13192) to this system.
 ```
-@misc{weigend2023anytime,
+@INPROCEEDINGS{weigend2023anytime,
       title={Anytime, Anywhere: Human Arm Pose from Smartwatch Data for Ubiquitous Robot Control and Teleoperation}, 
       author={Fabian C Weigend and Shubham Sonawani and Michael Drolet and Heni Ben Amor},
-      year={2023},
-      eprint={2306.13192},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+      booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+      year={2023}
 }
 ```
 
+
 # Quick Start Guide
 
-Here, we outline the most basic steps to get started with our system. For more detailed instructions and advanced modes 
-(like phone and watch tracking or voice commands), please see our [wiki](https://github.com/wearable-motion-capture/.github/wiki). As shown below, this framework features three modes. The quick start guide gets you started with the **Watch Only** mode.
+For more detailed instructions and advanced modes please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki). As shown below, this framework features three modes. **Watch Only** estimates arm poses from the data of a single smartwatch. **+Phone Upper Arm** enables our most accurate arm pose predictions. **+Phone Pocket** allows to move around and change body orientation. The quick start guide gets you started with the **Watch Only** mode.
 
 <p align="center">
   <img src="https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modes.gif" alt="Modes"/>
