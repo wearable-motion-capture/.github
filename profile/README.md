@@ -19,7 +19,7 @@ The associated [paper](https://arxiv.org/abs/2306.13192) to this system is:
 # Quick Start Guide
 
 Here, we outline the most basic steps to get started with our system. For more detailed instructions and advanced modes 
-(like phone and watch tracking or voice commands), please see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki). As shown below, this framework features three modes. The quick start guide gets you started with the **Watch Only** mode.
+(like phone and watch tracking or voice commands), please see our [wiki](https://github.com/wearable-motion-capture/.github/wiki). As shown below, this framework features three modes. The quick start guide gets you started with the **Watch Only** mode.
 
 <p align="center">
   <img src="https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modes.gif" alt="Modes"/>
@@ -38,7 +38,7 @@ Namely, they are:
 The figure below summarizes the data stream from smart devices to visualization. The individual components are connected through UDP streams, but Arm Pose Estimation and Arm Pose Visualization can run on the same machine. The UDP streaming from smart devices to the Arm Pose Estimation requires a local WiFi connection.
 
 <p align="center">
-  <img src="https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modules.png" alt="Modules"/>
+  <img src="https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/modules.jpg" alt="Modules"/>
 </p>
 
 ### Basic Installs
@@ -59,4 +59,4 @@ python3 stream_watch_only.py 192.168.1.123
 ```
 
 Finally, to visualize arm pose estimates, you can either download a build of the visualizer tool [here](https://drive.google.com/drive/folders/1DzpVi-WxWYhTzW-msOGx4AHPmHCyEV3E?usp=sharing), or you clone our [__arm-pose-visualization__](https://github.com/wearable-motion-capture/arm-pose-visualization) repository and open it in Unity.
-Please also see our [extensive wiki](https://github.com/wearable-motion-capture/.github/wiki) if you want to use Unity.
+Please also see our [wiki](https://github.com/wearable-motion-capture/.github/wiki) if you want to use Unity.
