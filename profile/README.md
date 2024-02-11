@@ -4,7 +4,7 @@ Our __wearable motion capture system__ provides arm-pose estimations from a sing
 
 ![Watch Only GIF](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/watch_only.gif)
 
-The associated [paper](https://arxiv.org/abs/2306.13192) to this system. NEW ICRA PUBLICATION TO BE RELEASED SOON!
+The associated [paper](https://arxiv.org/abs/2306.13192) to this system. New ICRA publication to be released soon :tada:
 ```
 @INPROCEEDINGS{weigend2023anytime,
       title={Anytime, Anywhere: Human Arm Pose from Smartwatch Data for Ubiquitous Robot Control and Teleoperation}, 
