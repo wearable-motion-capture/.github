@@ -2,9 +2,11 @@
 
 Our __wearable motion capture system__ provides arm-pose estimations from a single smartwatch. This allows motion capture of the human arm anytime and anywhere. Our system comprises apps to stream sensor data from wearable devices, a python package to estimate arm poses from streamed sensor data, and an optional 3D visualization using Unity.
 
+:iphone::watch: :computer: Please visit [__this website__](https://faweigend.com/research/wearable-motion-capture/) for videos and more material.
+
 ![Watch Only GIF](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/watch_only.gif)
 
-The associated [paper](https://arxiv.org/abs/2306.13192) to this system. New ICRA publication to be released soon :tada:
+The associated [paper](https://arxiv.org/abs/2306.13192) to this system.
 ```
 @INPROCEEDINGS{weigend2023anytime,
       title={Anytime, Anywhere: Human Arm Pose from Smartwatch Data for Ubiquitous Robot Control and Teleoperation}, 
