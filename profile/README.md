@@ -52,10 +52,10 @@ Then, clone [__arm-pose-estimation__](https://github.com/wearable-motion-capture
 ```
 pip3 install /path/to/cloned/repository
 ```
-For streaming data from the watch only, copy the [stream_watch_only.py](https://github.com/wearable-motion-capture/arm-pose-estimation/blob/main/example_scripts/stream_watch_only.py) from the [example_scripts](https://github.com/wearable-motion-capture/arm-pose-estimation/tree/main/example_scripts) directory.
+For streaming data from the watch only, copy the [watch_only.py](https://github.com/wearable-motion-capture/arm-pose-estimation/blob/main/example_scripts/stream/watch_only.py) from the [example_scripts](https://github.com/wearable-motion-capture/arm-pose-estimation/tree/main/example_scripts) directory.
 Run the script with your local IP as a parameter. For example:
 ```
-python3 stream_watch_only.py 192.168.1.123
+python3 watch_only.py 192.168.1.123
 ```
 
 Finally, to visualize arm pose estimates, you can either download a build of the visualizer tool [here](https://drive.google.com/drive/folders/1DzpVi-WxWYhTzW-msOGx4AHPmHCyEV3E?usp=sharing), or you clone our [__arm-pose-visualization__](https://github.com/wearable-motion-capture/arm-pose-visualization) repository and open it in Unity.
