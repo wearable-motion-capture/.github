@@ -6,13 +6,16 @@ Our __wearable motion capture system__ provides arm-pose estimations from a sing
 
 ![Watch Only GIF](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/watch_only.gif)
 
-The associated [paper](https://arxiv.org/abs/2306.13192) to this system.
+The associated [paper](https://arxiv.org/pdf/2403.07199) to this system.
 ```
-@INPROCEEDINGS{weigend2023anytime,
-      title={Anytime, Anywhere: Human Arm Pose from Smartwatch Data for Ubiquitous Robot Control and Teleoperation}, 
-      author={Fabian C Weigend and Shubham Sonawani and Michael Drolet and Heni Ben Amor},
-      booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
-      year={2023}
+@INPROCEEDINGS{iroco2024,
+  author={Weigend, Fabian C and Liu, Xiao and Sonawani, Shubham and Kumar, Neelesh and Vasudevan, Venugopal and Ben Amor, Heni},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={iRoCo: Intuitive Robot Control From Anywhere Using a Smartwatch}, 
+  year={2024},
+  pages={17800-17806},
+  keywords={Performance evaluation;Wearable Health Monitoring Systems;Robot control;Collaboration;Probabilistic logic;Motion capture;Kalman filters},
+  doi={10.1109/ICRA57147.2024.10610805}
 }
 ```
 
