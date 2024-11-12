@@ -61,5 +61,5 @@ Run the script with your local IP as a parameter. For example:
 python3 watch_only.py 192.168.1.123
 ```
 
-Finally, to visualize arm pose estimates, you can either download a build of the visualizer tool [here](https://drive.google.com/drive/folders/1DzpVi-WxWYhTzW-msOGx4AHPmHCyEV3E?usp=sharing), or you clone our [__arm-pose-visualization__](https://github.com/wearable-motion-capture/arm-pose-visualization) repository and open it in Unity.
+Finally, to visualize arm pose estimates, you can either download a build of the visualizer tool [here](https://drive.google.com/drive/folders/18LDbT_E33oyWSd0J2E86wi2IfsF00x9S?usp=sharing), or you clone our [__arm-pose-visualization__](https://github.com/wearable-motion-capture/arm-pose-visualization) repository and open it in Unity.
 Please also see our [wiki](https://github.com/wearable-motion-capture/.github/wiki) if you want to use Unity.
