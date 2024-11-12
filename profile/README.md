@@ -14,7 +14,6 @@ The associated [paper](https://arxiv.org/pdf/2403.07199) to this system.
   title={iRoCo: Intuitive Robot Control From Anywhere Using a Smartwatch}, 
   year={2024},
   pages={17800-17806},
-  keywords={Performance evaluation;Wearable Health Monitoring Systems;Robot control;Collaboration;Probabilistic logic;Motion capture;Kalman filters},
   doi={10.1109/ICRA57147.2024.10610805}
 }
 ```
