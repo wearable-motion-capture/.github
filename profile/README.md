@@ -4,21 +4,11 @@ Our __wearable motion capture system__ provides arm-pose estimations from a sing
 
 :iphone::watch: :computer: Please visit [__this website__](https://faweigend.com/research/wearable-motion-capture/) for videos and more material.
 
-Model training and test data is available on [__Hugging Face__](https://huggingface.co/datasets/faweigend/wearmocap).
+:chart_with_upwards_trend: Model training and test data is available on [__Hugging Face__](https://huggingface.co/datasets/faweigend/wearmocap).
 
-![Watch Only GIF](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/watch_only.gif)
+:book: The most-recently published [technical report](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1478016/full).
 
-The associated [paper](https://arxiv.org/pdf/2403.07199) to this system.
-```
-@INPROCEEDINGS{iroco2024,
-  author={Weigend, Fabian C and Liu, Xiao and Sonawani, Shubham and Kumar, Neelesh and Vasudevan, Venugopal and Ben Amor, Heni},
-  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
-  title={iRoCo: Intuitive Robot Control From Anywhere Using a Smartwatch}, 
-  year={2024},
-  pages={17800-17806},
-  doi={10.1109/ICRA57147.2024.10610805}
-}
-```
+:tv: Our most-recent [video](https://www.youtube.com/watch?v=hyQY5dyWPLU&t=4s).
 
 
 # Quick Start Guide
