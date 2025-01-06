@@ -6,9 +6,9 @@ Our __wearable motion capture system__ provides arm-pose estimations from a sing
 
 :chart_with_upwards_trend: Model training and test data is available on [__Hugging Face__](https://huggingface.co/datasets/faweigend/wearmocap).
 
-:book: The most-recently published [technical report](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1478016/full).
+:book: The most-recently published [__technical report__](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1478016/full).
 
-:tv: Our most-recent [video](https://www.youtube.com/watch?v=hyQY5dyWPLU&t=4s).
+:tv: Our most-recent [__video__](https://www.youtube.com/watch?v=hyQY5dyWPLU&t=4s).
 
 
 # Quick Start Guide
