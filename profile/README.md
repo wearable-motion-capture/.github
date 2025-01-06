@@ -4,6 +4,8 @@ Our __wearable motion capture system__ provides arm-pose estimations from a sing
 
 :iphone::watch: :computer: Please visit [__this website__](https://faweigend.com/research/wearable-motion-capture/) for videos and more material.
 
+Model training and test data is available on [__Hugging Face__](https://huggingface.co/datasets/faweigend/wearmocap).
+
 ![Watch Only GIF](https://github.com/wearable-motion-capture/.github/blob/main/profile/httpdocs/watch_only.gif)
 
 The associated [paper](https://arxiv.org/pdf/2403.07199) to this system.
